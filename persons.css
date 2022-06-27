@@ -1,0 +1,129 @@
+table, td,th{
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+}
+table{
+    width: 100%;
+}
+td,th{
+    height: 35px;
+}
+th{
+    background-color: rgba(1, 126, 186,1); 
+    color:white;
+    font-size: 13pt;
+    transition: all 0.5s;
+}
+.col_number{
+    text-align: center;
+    width: 10%;
+}
+.col_text{
+    text-align: center;
+    padding-left: 10px;
+    width: 35%;
+}
+.col_checkbox{
+    text-align: center;
+    width: 10%;
+}
+#table_container{
+    margin: 50px 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container_summary {
+    margin-top: 2px;
+    border: 1px solid #dddddd;
+    background-color: #efefef;
+    color: #303030;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #p1,#p2,#p3 {
+  margin: 0px;
+}
+
+#p1 {
+    width: 13%;
+    text-align: left;
+    padding: 8px 0px 5px 35px;
+    
+  
+  }
+  
+  #p3 {
+    width: 72%;
+    text-align: right;
+    padding: 8px 0px;
+    padding-right: 106px;
+  }
+
+  #form_container{ 
+    border: 1px solid #dddddd;
+    padding: 10px 10px;
+  }
+  .form_group{
+    display: inline-block;
+  }
+  .form_label{
+    font-weight: bold;
+  }
+  .form_field{
+    height: 25px;
+  }
+
+#add{
+      background: green;
+      font-weight: bold;
+      color: white;
+      border: none;
+      padding: 5px;
+  }
+#del{
+    background: red;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+#upd{
+    background: rgb(0, 149, 255);
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+#buttons>form{
+    display:inline-block;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#buttons{
+    float: right;
+}
+.center,.center_p{
+  text-align: center;
+}
+#disc{
+  background: rgb(140, 13, 224);
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 8px;
+  
+}
+input:hover{
+  cursor: pointer;
+}
+th{
+  cursor: pointer;
+}
+th:hover ,th:focus{
+  background-color: rgb(2, 73, 105)
+ 
+}
